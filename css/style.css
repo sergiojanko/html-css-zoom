@@ -60,8 +60,17 @@ main
 .participants-container .participant
 {
     padding: 5px;
+    position: relative;
 }
 
+.participants-container .participant::before
+{
+    content: 'Pinco Pallo';
+    position: absolute;
+    bottom: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 /* Bottom bar */
 
 .bottom-bar
