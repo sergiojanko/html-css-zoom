@@ -81,6 +81,7 @@ main
     align-items: center;
     text-align: center;
     line-height: 100%;
+    background-color: #222222;
 }
 
 .bottom-bar .bottom-commands 
@@ -93,6 +94,14 @@ main
 .bottom-bar .bottom-commands:nth-child(2)
 {
     flex-grow: 1;
+}
+.bottom-bar .bottom-commands:last-child
+{
+    color: red;
+    height: 100%;;
+}
+.bottom-bar .bottom-commands:last-child:hover{
+    background-color: #4A4A4A;
 }
 .bottom-bar .bottom-commands .call-btn
 {
