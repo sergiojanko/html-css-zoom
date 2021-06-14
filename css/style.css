@@ -45,6 +45,8 @@ main
 {
     height: 80vh;
 }
+
+/* Call Participants */
 .participants-container
 {
     display: flex;
@@ -55,7 +57,52 @@ main
     max-height: 70vh;
 }
 
-.participants-container .participants-container
+.participants-container .participant
 {
-    padding: 20px;
+    padding: 5px;
 }
+
+/* Bottom bar */
+
+.bottom-bar
+{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 100%;
+}
+
+.bottom-bar .bottom-commands 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-bar .bottom-commands:nth-child(2)
+{
+    flex-grow: 1;
+}
+.bottom-bar .bottom-commands .call-btn
+{
+    display: inline-block;
+    padding: 10px;
+}
+.bottom-bar .bottom-commands .fas
+{
+    display: block;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.bottom-bar .bottom-commands .fas .fa-angle-up
+{
+    display: inline-block;
+    vertical-align: center;
+    line-height: 100%;
+    padding: 10px;
+}
+
+.bottom-bar
