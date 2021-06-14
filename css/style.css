@@ -15,6 +15,11 @@ body
 
 /* Header */
 
+header
+{
+    height: 20vh;
+}
+
 .top-commands
 {
     text-align: right;
@@ -31,4 +36,26 @@ body
     line-height: 25px;
     padding: 5px;
     cursor: pointer;
+}
+
+
+/* Main */
+
+main 
+{
+    height: 80vh;
+}
+.participants-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+    padding: 50px;
+    max-height: 70vh;
+}
+
+.participants-container .participants-container
+{
+    padding: 20px;
 }
